@@ -1,3 +1,5 @@
+// Questões do Item 1 ao 15
+
 void main(){
     // Item 1
     int idade = 28;
