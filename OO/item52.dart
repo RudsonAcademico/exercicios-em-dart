@@ -8,7 +8,7 @@ abstract class Forma {
     num calcularArea();
 }
 
-class Quadrado extends Forma {
+class Quadrado implements Forma {
     double lado;
     Quadrado(this.lado);
     
@@ -18,7 +18,7 @@ class Quadrado extends Forma {
     }
 }
 
-class Circulo extends Forma {
+class Circulo implements Forma {
     double raio;
     
     Circulo(this.raio);
